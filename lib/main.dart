@@ -67,6 +67,7 @@ class _TodoListState extends State<TodoList> {
     return Scaffold(
       appBar: AppBar(
         title: Text('Список задач'),
+        backgroundColor: Colors.blue
       ),
       body: Column(
         children: [
